@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+.sign-up-container{
+    display: flex;
+    width: 737px;
+    height: 466px;
+    margin: auto;
+}
+.sign-up-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 308px;
+    background: #06A67E;
+    border-radius: 0px 10px 10px 0px;
+}
+.sign-up-left h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.sign-up-left p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 16px 0px 46px 0px;
+    display: block;
+    width: 212px;
+}
+.sign-up-btn-left{
+    width: 158px;
+    height: 39px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.sign-up-btn-left:active{
+    background: #53c7aa;
+}
+.sign-up-right{
+    width: 429px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #FFFFFF;
+    border-radius: 10px 0px 0px 10px;
+}
+.sign-up-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sign-up-top h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    color: #38B593;
+    padding-bottom: 16px;
+}
+.sign-up-png img{
+    margin-left: 10px;
+    padding-bottom: 40px;
+}
+.sign-up-top p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 140.4%;
+    text-align: center;
+    color: #9A9A9A;
+    padding-bottom: 34px;
+}
+.sign-up-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sign-up-bottom img{
+    position: relative;
+    top: 24px;
+    left: -100px;
+}
+.sign-up-bottom input{
+    width: 242px;
+    height: 36px;
+    border: none;
+    background: #F4F8F5;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    color: #9A9A9A;
+    padding-left: 41px;
+}
+.forget-password{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 140.4%;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #373737;
+    padding: 15px 0;
+    cursor: pointer;
+}
+.sign-up-btn-right{
+    width: 158px;
+    height: 39px;
+    background: #38B593;
+    border-radius: 20px;
+    border: none;
+    color: #FFFFFF;
+    margin-top: 12px;
+    cursor: pointer;
+}
+.sign-up-btn-right:active{
+    background: #53c7aa;
+}
